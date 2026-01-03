@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="driver.css">
+    <title>Create Your Ride</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main-form">
+            <div class="header">
+                <h1>🚗 Create Your Ride</h1>
+                <p>Fill in your journey details to connect with fellow travelers</p>
+            </div>
+
+            <div class="section">
+                <div class="section-title">👤 Driver Profile</div>
+                <div class="upload-section">
+                    <div class="upload-box">
+                        <div class="upload-icon">📷</div>
+                        <h3>Profile Photo</h3>
+                        <p>Help passengers recognize you</p>
+                    </div>
+                    <div class="upload-box">
+                        <div class="upload-icon">📄</div>
+                        <h3>Driver License Photo</h3>
+                        <p>Clear photo of your driving license</p>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Driver License Number</label>
+                    <input type="text" placeholder="e.g., MH01 20221234567">
+                    <small>Enter your valid driving license number for verification</small>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">🗺️ Route Information</div>
+                <div class="form-group">
+                    <label>Source <span>*</span></label>
+                    <input type="text" placeholder="Where are you starting from?" required>
+                </div>
+                <div class="form-group">
+                    <label>Destination <span>*</span></label>
+                    <input type="text" placeholder="Where are you going?" required>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">📅 Schedule</div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Date</label>
+                        <input type="date">
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">💺 Ride Details</div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Available Seats</label>
+                        <select>
+                            <option>1 Seat</option>
+                            <option>2 Seats</option>
+                            <option>3 Seats</option>
+                            <option>4 Seats</option>
+                            <option>5 Seats</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Price per Seat ( Rs. )</label>
+                        <input type="number" placeholder="100">
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">🚙 Vehicle Information</div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Vehicle Model</label>
+                        <input type="text" placeholder="e.g., Maruti Swift">
+                    </div>
+                    <div class="form-group">
+                        <label>Vehicle Color</label>
+                        <input type="text" placeholder="e.g., White">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Vehicle Number</label>
+                    <input type="text" placeholder="e.g., MH 01 AB 1234">
+                </div>
+            </div>
+          
+            <button class="submit-btn">
+                <span></span> Create Your Ride 🚗
+            </button>
+        </div>
+</body>
+</html>
