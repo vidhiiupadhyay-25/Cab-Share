@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f6e9ff, #fdefff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.passenger-wrapper {
+    width: 100%;
+    max-width: 460px;
+    padding: 20px;
+}
+
+.passenger-card {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 32px 30px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.passenger-card h2 {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 6px;
+    color: #222;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 24px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 6px;
+}
+
+input {
+    width: 100%;
+    padding: 11px 14px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    outline: none;
+    background: #fafafa;
+}
+
+input:focus {
+    border-color: #c084fc;
+    background: #fff;
+}
+
+.row {
+    display: flex;
+    gap: 12px;
+}
+
+.search-btn {
+    width: 100%;
+    padding: 13px;
+    border-radius: 14px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    background: linear-gradient(135deg, #8b5cf6, #ec4899);
+    margin-top: 10px;
+}
+
+.search-btn:hover {
+    opacity: 0.95;
+}

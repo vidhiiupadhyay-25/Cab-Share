@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | CabShare</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+
+    <div class="signup-wrapper">
+        <div class="signup-card">
+            <h2>Create Account</h2>
+            <p class="subtitle">Join CabShare and start your journey</p>
+
+            <form>
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Date of Birth</label>
+                    <input type="date" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Gender</label>
+                    <select required>
+                        <option value="">Select gender</option>
+                        <option>Female</option>
+                        <option>Male</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+
+                <div class="vehicle-section">
+                    <p>Want to offer rides?</p>
+                    <button type="button" class="vehicle-btn">
+                        + Add Vehicle (Driver)
+                    </button>
+                </div>
+
+                <button type="submit" class="confirm-btn">
+                    Confirm Signup
+                </button>
+
+                <p class="note">
+                    * If you don’t add a vehicle, you’ll be registered as a passenger.
+                </p>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
